@@ -11,8 +11,6 @@ public class iPhone {
         this.navegadorInternet = navegadorInternet;
     }
 
-    // Métodos de delegação
-
     // Reprodutor Musical
     public void tocarMusica() {
         reprodutorMusical.tocar();
