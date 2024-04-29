@@ -8,3 +8,4 @@ https://github.com/cami-la/desafio-poo-dio
 ===============================================================
 Testes de Software:
 https://github.com/willyancaetano/junit5-exemplos
+https://github.com/willyancaetano/mockito-exemplos
