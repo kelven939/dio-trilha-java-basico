@@ -83,25 +83,25 @@ public class Main {
         Cliente cliente1 = new Cliente("João", "123.456.789-00");
         Cliente cliente2 = new Cliente("Maria", "987.654.321-00");
 
-        // Criando contas bancárias
+        // Criando contas
         ContaBancaria conta1 = new ContaBancaria(cliente1, 1001, 1000);
         ContaBancaria conta2 = new ContaBancaria(cliente2, 1002, 2000);
 
         // Criando banco
         Banco banco = new Banco();
 
-        // Adicionando contas ao banco
+        // Adicionando contas
         banco.adicionarConta(conta1);
         banco.adicionarConta(conta2);
 
-        // Listando contas do banco
+        // Listando contas
         banco.listarContas();
 
         // Realizando operações
         conta1.depositar(500);
         conta2.sacar(1000);
 
-        // Listando contas do banco
+        // Listando contas
         banco.listarContas();
     }
 }
